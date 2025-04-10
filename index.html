@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Art-School: Une école d'art dédiée aux enfants pour explorer leur créativité.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/icons-paint.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Art-School</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <h1><i class="fa-solid fa-palette" style="color: #f15651;"></i> Art-School </h1>
+        </div>
+        <!-- navigation -->
+        <nav class="nav">
+            <!-- mobile menu -->
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- nav -->
+            <ul id="nav-list">
+                <li><a class="a" href="#home">Home</a></li>
+                <li><a class="a" href="#about">About</a></li>
+                <li><a class="a" href="#services">Services</a></li>
+                <li><a class="a" href="#contact">Contact</a></li>
+                <li><a href="#" class="signup-button">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Section Home -->
+    <section id="home" class="home">
+        <!-- content home -->
+        <div class="content">
+            <h1>Welcome To Our Kids Art School</h1>
+            <p>Unleash your creativity and explore the wonderful world of art!</p>
+            <a href="#services" class="btn-hom">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about" class="about">
+        <!-- card About -->
+        <div class="card-container">
+            <div class="card" style="background-color: #f4aba9;">
+                <div class="card-icon">🎨</div>
+                <h3>Painting Adventures</h3>
+                <p>Join us for exciting painting sessions where kids can express themselves with colors!</p>
+            </div>
+            <div class="card" style="background-color: #9acddd;">
+                <div class="card-icon">✂️</div>
+                <h3>Crafting Fun</h3>
+                <p>Get creative with our fun crafting workshops, using various materials to create unique art pieces!</p>
+            </div>
+            <div class="card" style="background-color: #84e484;">
+                <div class="card-icon">🖌️</div>
+                <h3>Drawing Class</h3>
+                <p>Learn the basics of drawing and develop your skills in our drawing masterclasses!</p>
+            </div>
+            <div class="card" style="background-color: #fcfc60;">
+                <div class="card-icon">🖼️</div>
+                <h3>Art Exhibitions</h3>
+                <p>Showcase your talent at our art exhibitions and gain confidence through public display!</p>
+            </div>
+        </div>
+        <!-- details About -->
+        <div class="details">
+            <h2 class="about-title">Our Art School</h2>
+            <p class="about-description">Join us at our esteemed Art School for Kids, where imagination meets creativity! 
+                Our nurturing environment fosters artistic expression through diverse mediums, empowering each child 
+                to explore their unique artistic voice.</p>
+            <ul class="about-list">
+                <li><i class="fa-solid fa-palette" style="color: #00d212;"></i><span class="list-title">Classes Offered :</span> 
+                    Painting, Drawing, Sculpture, Crafting
+                </li>
+                <li><i class="fa-solid fa-star" style="color: #ffae00;"></i><span class="list-title">Facilities :</span> 
+                    Art Studio, Outdoor Space, Exhibition Hall
+                </li>
+                <li><i class="fa-solid fa-heart" style="color: #ff0000;"></i><span class="list-title">Programs :</span> 
+                    After-school Workshops, Summer Camps, Weekend Classes
+                </li>
+            </ul>
+            <a href="#services" class="about-button">Join Us Today!</a>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services" id="services">
+        <!-- title Services -->
+        <div class="details">
+            <h2 class="services-title">Our Service</h2>
+        </div>
+        <!-- all Services -->
+        <div class="service-container">
+            <!-- Services displayed by default -->
+            <div class="service" id="service-1">
+                <img src="img/lucas-alexander-sJuDgtkUyYs-unsplash.jpg" alt="Service 1" class="service-img">
+                <h3>Creative Coloring</h3>
+                <p>Children will have the opportunity to explore their creativity through coloring</p>
+            </div>
+            <div class="service" id="service-2">
+                <img src="img/dragos-gontariu-JgEkrsLQd_w-unsplash.jpg" alt="Service 2" class="service-img">
+                <h3>Mixing Colors</h3>
+                <p>Children will have the opportunity to discover the art of mixing colors together</p>
+            </div>
+            <div class="service" id="service-3">
+                <img src="img/pexels-yankrukov-8613060.jpg" alt="Service 3" class="service-img">
+                <h3>Artistic Cutting</h3>
+                <p>Children will have the opportunity to enjoy cutting and creating paper objects</p>
+            </div>
+            <div class="service" id="service-4">
+                <img src="img/alexander-dummer-9N68zG9o9IY-unsplash.jpg" alt="Service 4" class="service-img">
+                <h3>Drawing Workshop</h3>
+                <p>Children will learn drawing techniques and express their creativity</p>
+            </div>
+    
+            <!-- Hidden services by default -->
+            <div class="service" id="service-5" style="display: none;">
+                <img src="img/pexels-anastasia-shuraeva-6978726.jpg" alt="Service 5" class="service-img">
+                <h3>Bright Painting</h3>
+                <p>Children will explore painting with brushes and techniques</p>
+            </div>
+            <div class="service" id="service-6" style="display: none;">
+                <img src="img/pexels-yankrukov-8612992.jpg" alt="Service 6" class="service-img">
+                <h3>Group Art Project</h3>
+                <p>Children will collaborate on a large art piece, learning the importance of teamwork</p>
+            </div>
+            <div class="service" id="service-7" style="display: none;">
+                <img src="img/julietta-watson-1VT2qoBtc-k-unsplash.jpg" alt="Service 7" class="service-img">
+                <h3>Fun Modeling</h3>
+                <p>Children will have the opportunity to create artistic objects using modeling clay</p>
+            </div>
+            <div class="service" id="service-8" style="display: none;">
+                <img src="img/pexels-cottonbro-9303535.jpg" alt="Service 8" class="service-img">
+                <h3>Camping and Creativity</h3>
+                <p>Children will participate in outdoor activities, combining nature exploration</p>
+            </div>
+        </div>
+        <button id="show-more" onclick="showMoreServices()">Show More</button>
+    </section>
+
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+        <!-- details contact -->
+        <div class="details">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-description">Sign up to receive updates and exciting events from our Art 
+                School for Kids! Just fill in your name and email below.</p>
+        </div>
+        <!-- form contact -->
+        <form>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+
+        <p class="contact-description">Thank you for your interest !</p>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-section">
+                <h2>Art-School</h2>
+                <p>School Art Kids offers engaging art programs that cultivate creativity and imagination 
+                    in young minds. Our mission is to provide a supportive space where every child can explore 
+                    and develop their artistic potential.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Social Media</h2>
+                <ul class="social-media">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a class="a" href="#home">Home</a></li>
+                    <li><a class="a" href="#about">About</a></li>
+                    <li><a class="a" href="#services">Services</a></li>
+                    <li><a class="a" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: Art-School@ar.com</p>
+                <p>Phone: +33 9 63 15 07 09</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Art-School | Art-School@ar.com
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
