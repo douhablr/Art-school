@@ -12,28 +12,29 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: #fa3b1043;
+    background: #fa3b1043 !important;
     border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #fa3b10;
+    background: #fa3b10 !important;
     border-radius: 2px;
 }
 
 /* body */
 body {
     font-family: 'League Spartan', Arial, sans-serif;
+    background-color: #ffffff !important;
 }
 
 /* header */
 header {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    color: rgb(0, 0, 0);
+    color: #000000 !important;
     position: fixed; 
     top: 0;
     left: 0;
@@ -67,7 +68,7 @@ header {
 
 .nav ul li .a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000 !important;
     padding: 15px 10px;
     border-radius: 50px 100px 50px 40px;
     transition: background-color 0.2s ease;
@@ -81,9 +82,9 @@ header {
 
 /* button  nav (Sign Up) */
 .signup-button {
-    background-color: #fa3b10;
-    border: 2px solid #fa3b10;
-    color: rgb(255, 255, 255);
+    background-color: #fa3b10 !important;
+    border: 2px solid #fa3b10 !important;
+    color: #ffffff !important;
     padding: 13px 10px;
     border-radius: 50px 100px 50px 40px;
     text-decoration: none;
@@ -106,7 +107,7 @@ header {
 .menu-toggle span {
     height: 3px;
     width: 25px;
-    background: rgb(0, 0, 0);
+    background: #000000 !important;
     margin: 3px 0;
 }
 
@@ -126,7 +127,7 @@ header {
 
 .content {
     padding: 100px; 
-    color: #ffffff; 
+    color: #ffffff !important; 
 }
 
 .content h1 {
@@ -142,8 +143,8 @@ header {
 /* button  home (Learn More) */
 .btn-hom {
     display: inline-block;
-    background-color: #ff522c; 
-    color: white; 
+    background-color: #ff522c !important; 
+    color: white !important; 
     padding: 15px 30px; 
     text-decoration: none; 
     border-radius: 50px 80px 20px 40px;
@@ -192,7 +193,6 @@ header {
 }
 
 .card {
-    background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     padding: 20px;
@@ -224,7 +224,7 @@ header {
 
 .about-title{
     font-size: 28px;
-    color: #ff4800; 
+    color: #ff4800 !important; 
     margin-bottom: 30px; 
     font-weight: bold; 
 }
@@ -232,7 +232,7 @@ header {
 .about-description {
     margin-bottom: 20px; 
     font-size: 18px; 
-    color: #c64f05; 
+    color: #c64f05 !important; 
 }
 
 .about-list {
@@ -245,24 +245,24 @@ header {
     display: block; 
     margin: 15px 0; 
     padding: 10px; 
-    background-color: #f3f4f681; 
+    background-color: #f3f4f681 !important; 
     border-radius: 15px; 
     font-size: 16px; 
-    color: #4c306d; 
+    color: #4c306d !important; 
 }
 
 .list-title {
     font-weight: bold;
     margin-left: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    color: #127da0;
+    font-family: 'Segoe UI', Tahoma , Verdana, sans-serif; 
+    color: #127da0 !important;
 }
 
 .about-button {
     display: inline-block; 
     padding: 10px 20px; 
-    border: 2px solid #fa1730;
-    color: #171717; 
+    border: 2px solid #fa1730 !important;
+    color: #171717 !important; 
     text-decoration: none; 
     border-radius: 50px 100px 80px 100px;
     transition: all 0.3s ease; 
@@ -279,13 +279,13 @@ header {
 .services {
     padding: 30px 60px 60px;
     text-align: center;
-    background-color: #fa3b1043;
+    background-color: #fa3b1043 !important;
 }
 
 /* services title */
 .services-title{
     font-size: 28px;
-    color: #f50f6b; 
+    color: #f50f6b !important; 
     margin-bottom: 25px; 
     font-weight: bold;
 
@@ -299,8 +299,8 @@ header {
 }
 
 .service {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: white !important;
+    border: 1px solid #ddd !important;
     padding: 10px;
     width: 300px;
     text-align: center;
@@ -321,12 +321,12 @@ header {
 }
 
 .service:hover h3 {
-    color: #f30061; 
+    color: #f30061 !important; 
   }
 
 .service p {
     font-size: 1rem;
-    color: #555;
+    color: #555 !important;
     margin-top: 10px;
 }
 
@@ -341,10 +341,10 @@ header {
     padding: 10px 35px;
     border: none;
     margin-top: 50px;
-    border: 2px solid #f50f6b;
+    border: 2px solid #f50f6b !important;
     border-radius: 90px 30px 80px 50px;
-    background-color: #f50f6b;
-    color: rgb(255, 255, 255);
+    background-color: #f50f6b !important;
+    color: #ffffff !important;
     cursor: pointer;
 }
 
@@ -358,7 +358,6 @@ header {
 .contact {
     text-align: center;
     padding: 50px 50px;
-    background-color: #fff;
     border-radius: 8px;
     width: 100%;
     max-width: 800px;
@@ -368,7 +367,7 @@ header {
 /* details contact  */
 .contact-title{
     font-size: 28px;
-    color: #16941b; 
+    color: #16941b !important; 
     margin-bottom: 30px; 
     font-weight: bold; 
 }
@@ -376,7 +375,7 @@ header {
 .contact-description {
     margin-bottom: 15px; 
     font-size: 18px; 
-    color: #e31d33; 
+    color: #e31d33 !important; 
 }
 
 /* form contact */
@@ -385,7 +384,7 @@ input[type="text"], input[type="email"] {
     padding: 15px;
     margin: 10px;
     border: none;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4 !important;
     border-radius: 20px 15px;
 }
 
@@ -394,10 +393,10 @@ button {
     padding: 10px 35px;
     border: none;
     margin: 20px;
-    border: 2px solid #16941b;
+    border: 2px solid #16941b !important;
     border-radius: 50px 30px 50px 50px;
-    background-color: #16941b;
-    color: rgb(255, 255, 255);
+    background-color: #16941b !important;
+    color: #ffffff !important;
     cursor: pointer;
 }
 
@@ -408,8 +407,8 @@ button:hover {
 
 /* footer */
 .footer {
-    background-color: #3a943ae1;
-    color: #ffffff;
+    background-color: #3a943ae1 !important;
+    color: #ffffff !important;
     font-family: Arial, sans-serif;
     padding: 20px;
     text-align: center;
@@ -431,7 +430,7 @@ button:hover {
 }
 
 .footer-section h2 {
-    border-bottom: 2px solid #ecf0f1;
+    border-bottom: 2px solid #ecf0f1 !important;
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
@@ -450,7 +449,7 @@ button:hover {
 }
 
 .footer-section ul li a {
-    color: #ecf0f1;
+    color: #ecf0f1 !important;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -460,7 +459,7 @@ button:hover {
 }
 
 .footer-section.contact {
-    background-color: #16941b; 
+    background-color: #16941b !important; 
     color: #ffffff; 
     border-radius: 5px; 
 }
